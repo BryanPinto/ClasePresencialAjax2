@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Consumir Indicadores Económicos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<h1 class="text-center">Conversión</h1>
+				
+			</div>
+			<div class="col-md-4 col-md-offset-4">
+				<h2 id="resumen"></h2>
+				<table class="table table-striped">
+					<tr>
+						<td>Dólar: <strong>$641,05</strong></td>
+						<td id="dolar"></td>
+					</tr>
+					<tr>
+						<td>Euro: <strong>$748,02</strong></td>
+						<td id="euro"></td>
+					</tr>
+					<tr>
+						<td>UF: <strong>$27.204,23</strong></td>
+						<td id="uf"></td>
+					</tr>
+					<tr>
+						<td>UTM: <strong>47,729,00</strong></td>
+						<td id="utm"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-4 col-md-offset-4">
+				<h2 class="text-center">Conversión peso chileno</h2>
+				<div class="input-group input-group-lg">
+  					<div class="form-group">
+					<select class="form-control" id="select">
+						<option>Seleccione una moneda</option>
+						<option value="dolar">Dólar</option>
+						<option value="euro">Euro</option>
+						<option value="uf">UF</option>
+						<option value="utm">UTM</option>
+					</select>
+				</div>
+  					<input id="numConvertido" type="number" class="form-control" placeholder="ej:1000" aria-describedby="sizing-addon1">
+					<button type="button" class="btn btn-default">Convertir</button>
+				</div>		
+			</div>
+
+			<div class="col-md-4 col-md-offset-4">
+				<h2 class="text-center">Conversión dólar</h2>
+				<div class="input-group input-group-lg">
+  					<div class="form-group">
+					<select class="form-control" id="select">
+						<option>Seleccione una moneda</option>
+						<option value="pesos">Peso chileno</option>
+						<option value="euro">Euro</option>
+						<option value="uf">UF</option>
+						<option value="utm">UTM</option>
+					</select>
+				</div>
+  					<input id="numConvertido"type="number" class="form-control" placeholder="ej:1000" aria-describedby="sizing-addon1">
+					<button type="button" class="btn btn-default">Convertir</button>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
